@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="splashscreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/white</item>
+    </style>
+
+    <style name="SplashTheme" parent = "splashscreen">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+    </style>
+</resources>
